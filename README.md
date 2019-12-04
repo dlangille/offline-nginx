@@ -23,7 +23,7 @@ You can see that I use symlinks to the actual configuration file.
 
 Since Nginx includes only `*.conf` files, I have renamed the freshports.org.
 
-When going offline I do this:
+## When going offline I do this:
 
 ```
 mv freshports.org.conf freshports.org.conf.inactive
@@ -32,7 +32,7 @@ service nginx configtest
 service nginx restart
 ```
 
-When going online:
+## When going online:
 
 ```
 mv freshports.org.conf.inactive freshports.org.conf
