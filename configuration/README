@@ -1,0 +1,13 @@
+This website is useful when taking another website off line.
+You can rediredt all queries here.  All responses are 
+503 Service Unavailable.  That should let people and spiders
+know to try again later.
+
+To use this, here is the outline of the steps you need to perform:
+
+1 - remove the virtual host of your real website from the Nginx configuration.
+2 - add this virtual host, ensuring that you specify the right
+    ServerName or ServerAlias for the host you are taking offline.
+3 - restart Nginx
+
+Enjoy.
